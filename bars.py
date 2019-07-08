@@ -25,8 +25,8 @@ def get_nearest_bar(longitude, latitude, json_file='bars.json'):
 
 def main():
     try:
-        longitude = float(input())
-        latitude = float(input())
+        longitude = float(input('Введите долготу: '))
+        latitude = float(input('Введите широту: '))
     except ValueError:
         print('Координаты состоят только из чисел')
         exit()
